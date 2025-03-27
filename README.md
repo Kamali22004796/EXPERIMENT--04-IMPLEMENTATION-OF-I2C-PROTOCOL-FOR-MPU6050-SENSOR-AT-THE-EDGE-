@@ -2,10 +2,10 @@
 
 ---
 
-### **NAME:**  
-### **DEPARTMENT:**  
-### **ROLL NO:**  
-### **DATE OF EXPERIMENT:**  
+### **NAME:**   Kamali E
+### **DEPARTMENT:**   CSE - IOT
+### **ROLL NO:**  212222110015
+### **DATE OF EXPERIMENT:**  27.03.2025
 
 ---
 
@@ -66,8 +66,9 @@ The **accelerometer** measures linear acceleration in **X, Y, Z axes**, while th
 ---
 
 ## **PROGRAM (MicroPython)**  
-```python
-from machine import Pin, I2C
+```
+
+    from machine import Pin, I2C
 import utime
 
 # MPU6050 I2C address
@@ -113,16 +114,18 @@ while True:
     utime.sleep(1)
 ```
 
----
+
 
 ## **OUTPUT:**  
-When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
-```
-Accel: X=0.02g, Y=-0.01g, Z=1.00g | Gyro: X=0.05°/s, Y=-0.02°/s, Z=0.01°/s
-Accel: X=0.03g, Y=-0.02g, Z=1.01g | Gyro: X=0.06°/s, Y=-0.03°/s, Z=0.02°/s
-...
-```
----
+
+![image](https://github.com/user-attachments/assets/826e2749-f65e-4a62-b864-4033ee8fe9bf)
+
+![image](https://github.com/user-attachments/assets/c18d7630-d934-4006-a96f-391a5f1734ae)
+
+![image](https://github.com/user-attachments/assets/eca06fb2-7e28-4f62-a48f-b0939bb4596e)
+
+![image](https://github.com/user-attachments/assets/70ff02f2-fc0f-450e-afec-74ccb69a5053)
+
 
 ## **RESULT:**  
 The **MPU6050 sensor** was successfully interfaced with the **Raspberry Pi Pico**, and real-time **acceleration and gyroscope data** were read and displayed. The sensor values can be used for **motion tracking, tilt detection, and gesture control applications**.
